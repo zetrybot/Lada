@@ -14,7 +14,7 @@
         <Grid Grid.Column="0" Background="DarkOrange"></Grid>
    
             <Image x:Name="Lada_logo_jpg" Source="Lada-logo.jpg" VerticalAlignment="Top" Grid.Column="0" />
-        <Button Click="Button_Click" Height="25" Background="White">эта кнопка работает</Button>
+        <Button Click="Button_Click" Height="25" Background="White">эта кнопка</Button>
         
             
 
