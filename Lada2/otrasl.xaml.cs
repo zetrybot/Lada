@@ -16,27 +16,13 @@ using System.Windows.Shapes;
 namespace Lada2
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для otrasl.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class otrasl : Page
     {
-        public MainWindow()
+        public otrasl()
         {
             InitializeComponent();
-            
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Navigate(new otrasl());
-            Manager.MainFrame = MainFrame;
-
-        }
-
-        private void Button_Click2(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Navigate(new ciz());
         }
     }
 }

@@ -16,27 +16,13 @@ using System.Windows.Shapes;
 namespace Lada2
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для ciz.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ciz : Page
     {
-        public MainWindow()
+        public ciz()
         {
             InitializeComponent();
-            
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Navigate(new otrasl());
-            Manager.MainFrame = MainFrame;
-
-        }
-
-        private void Button_Click2(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Navigate(new ciz());
         }
     }
 }

@@ -13,3 +13,7 @@ C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\Lada2.csp
 C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\Lada2.csproj.CoreCompileInputs.cache
 C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\Lada2.exe
 C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\Lada2.pdb
+C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\otrasl.g.cs
+C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\otrasl.baml
+C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\ciz.g.cs
+C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\ciz.baml

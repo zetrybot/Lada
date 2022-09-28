@@ -9,15 +9,30 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0" Background="DarkOrange"></Grid>
-   
-            <Image x:Name="Lada_logo_jpg" Source="Lada-logo.jpg" VerticalAlignment="Top" Grid.Column="0" />
-        <Button Click="Button_Click" Height="25" Background="White">эта кнопка</Button>
-        
-            
 
+
+        <Grid Grid.Column="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label FontSize="40" Margin="10" FontWeight="SemiBold" Content="Lada"></Label>
+            <Grid Background="LightSlateGray" Height="15" VerticalAlignment="bottom" Margin="10"></Grid>
+            <Frame Grid.Row="1" x:Name="MainFrame"></Frame>
+        </Grid>
+        <Grid Grid.Column="0" Background="DarkOrange"></Grid>
+
+        <Image x:Name="Lada_logo_jpg" Source="Lada-logo.jpg" VerticalAlignment="Top" Grid.Column="0" />
+        <StackPanel VerticalAlignment="Center">
+            <Button Click="Button_Click" Height="25" Margin="10" Background="White">эта кнопка</Button>
+            <Button Click="Button_Click2" Height="25" Margin="10" Background="White" Grid.ColumnSpan="2">вторая кнопка</Button>
+        </StackPanel>
+       
+  
 
     </Grid>
 </Window>
