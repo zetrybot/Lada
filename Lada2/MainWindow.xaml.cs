@@ -38,5 +38,10 @@ namespace Lada2
         {
             MainFrame.Navigate(new ciz());
         }
+
+        private void Button_Click3(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Page1());
+        }
     }
 }

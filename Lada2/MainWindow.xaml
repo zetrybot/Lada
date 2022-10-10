@@ -30,6 +30,7 @@
         <StackPanel VerticalAlignment="Center">
             <Button Click="Button_Click" Height="25" Margin="10" Background="White">эта кнопка</Button>
             <Button Click="Button_Click2" Height="25" Margin="10" Background="White" Grid.ColumnSpan="2">вторая кнопка</Button>
+            <Button Click="Button_Click3" Height="25" Margin="10" Background="White" Grid.ColumnSpan="2">третья кнопка</Button>
         </StackPanel>
        
   

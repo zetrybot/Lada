@@ -17,3 +17,5 @@ C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\otrasl.g.
 C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\otrasl.baml
 C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\ciz.g.cs
 C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\ciz.baml
+C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\Page1.g.cs
+C:\Users\Администратор\source\repos\Lada2\Lada2\obj\Debug\Page1.baml
